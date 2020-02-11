@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #343a40;
+}
+.destaque{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding-right: 0px; 
+    padding-left: 0px;               
+}
+.bd-white{
+    border-color: white;
+    border-style: solid;
+    box-shadow: 5px 5px 8px #888888;
+}
+.row-destaque{    
+    min-height: 500px;
+}
+.row-destaque-min{    
+    min-height: 250px;
+}
+.notice-text{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.notice-text>.notice-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #343a40;
+    border-bottom-width: 1px;
+    margin-bottom: 5px;
+}
